@@ -308,7 +308,7 @@ label mas_compliment_awesome_2:
     m 3ekbfb "I'll never let you go!"
     menu:
         "I wish you were here right now!":
-            $ mas_gainAffection(3, bypass=True)
+            $ mas_gainAffection(200, bypass=True)
             m "That's my biggest wish too, [player]!"
 
         "I'll never let you go from my embrace.":
